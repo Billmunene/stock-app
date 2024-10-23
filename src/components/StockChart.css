@@ -1,0 +1,34 @@
+
+.stock-chart-container {
+  max-width: 100%; /* Make it full width */
+  width: 100%; /* Full width for the container */
+  margin: 0 auto; /* Center content horizontally if necessary */
+  font-family: 'Inter', sans-serif;
+  padding: 0 20px; /* Add padding for spacing inside the container */
+  margin-top: 30px;
+}
+
+.chart-header h2 {
+  color: #333;
+}
+
+.time-period-selectors .time-btn {
+  transition: all 0.2s ease;
+}
+
+.time-period-selectors .time-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+.stock-chart-container {
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+}
+
+.time-btn {
+  transition: background-color 0.3s ease;
+}
+
+.time-btn:hover {
+  background-color: #444;
+  color: white;
+}
